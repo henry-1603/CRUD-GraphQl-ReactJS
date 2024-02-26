@@ -81,7 +81,7 @@ function App() {
 
       <button onClick={() => refetch()}>Refresh</button>
       {/* Display list of users */}
-      <h2>List of Users</h2>
+      <h2>List of Users you can delete by id</h2>
       <ul>
         {data.users.map(user => (
           <li key={user.id}>{user.id} : {user.name} - {user.email}</li>
